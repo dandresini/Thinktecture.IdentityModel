@@ -11,6 +11,10 @@
     <AssemblyName>Thinktecture.IdentityModel.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,6 +51,7 @@
     <Compile Include="Base64Url.cs" />
     <Compile Include="ClaimComparer.cs" />
     <Compile Include="Constants\SamlNameIdentifierFormats.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Http\BasicAuthenticationHeaderValue.cs" />
     <Compile Include="Http\CertPinningWebRequestHandler.cs" />
     <Compile Include="ClaimsAuthorization.cs" />
